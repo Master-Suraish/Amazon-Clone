@@ -628,3 +628,931 @@ main {
 }
 
 /* AMAZON-CLONE BY SURAISH CSS FINISH HERE */
+.mob-nav {
+  display: none;
+}
+.cross-icon {
+  display: none;
+}
+
+/* Media queris for my laptop */
+
+@media screen and (min-width: 1130px) and (max-width: 1412px) {
+  .hero-section {
+    height: auto;
+    padding-top: 120px;
+  }
+  .hero-section {
+    background-image: url(Amazon-images/Gaming\ Store.jpg);
+    background-size: contain;
+    width: 99%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .hero-shop-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .shop-container {
+    background-color: white;
+    height: 420px;
+    width: 290px;
+  }
+
+  .shop-container > h2 {
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 1.1rem;
+  }
+
+  .shop-container > a {
+    color: #4d4ded;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 8px;
+  }
+
+  .shop-container > a:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .box-container {
+    display: flex;
+    height: 340px;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    height: 155px;
+    width: 125px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box > p {
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .img-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 135px;
+    width: 130px;
+    cursor: pointer;
+  }
+  .shop-section {
+    background-color: black;
+    height: 470px;
+    display: flex;
+    width: 99%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Bigsmall-Container {
+    background-color: white;
+    height: 420px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Bigsmall-Container h2 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Bigsmall-Container p {
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  .Bigsmall-Container > a {
+    color: #4d4ded;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-left: 6px;
+  }
+
+  .Bigsmall-Container > a:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .Bigsmall-Container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bigimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 280px;
+    cursor: pointer;
+  }
+
+  .small-boxes {
+    display: flex;
+  }
+
+  .smallimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 85px;
+    margin-right: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .full-container {
+    background-color: white;
+    height: 420px;
+    width: 290px;
+  }
+
+  .full-container > h2 {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 21px;
+  }
+
+  .full-box > p {
+    font-size: 0.85rem;
+    padding-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  .full-container > a {
+    display: flex;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #4d4ded;
+  }
+
+  .full-container > a:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .full-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .full-img {
+    height: 300px;
+    width: 280px;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .About p {
+    margin: 10px;
+  }
+
+  .About a {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+
+  .links-box {
+    height: 370px;
+    width: 90%;
+  }
+}
+/* media queris for laptops*/
+
+@media screen and (min-width: 770px) and (max-width: 1130px) {
+  .hero-section {
+    height: auto;
+    padding-top: 120px;
+  }
+
+  .hero-shop-section {
+    flex-wrap: wrap;
+  }
+
+  .shop-section {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .box {
+    height: 155px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 200px;
+    cursor: pointer;
+  }
+
+  .shop-container {
+    width: 450px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .Bigsmall-Container {
+    width: 450px;
+  }
+
+  .full-container {
+    width: 450px;
+    margin-bottom: 10px;
+  }
+  .bigimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 420px;
+    cursor: pointer;
+  }
+
+  .small-boxes {
+    display: flex;
+  }
+
+  .smallimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 130px;
+    margin-right: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .full-img {
+    background-size: cover;
+    height: 310px;
+    width: 420px;
+    align-self: center;
+    cursor: pointer;
+  }
+  .About p {
+    margin: 10px;
+  }
+
+  .About a {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+
+  .links-box {
+    height: 370px;
+    width: 90%;
+  }
+}
+
+/* Media queris for Tablets */
+
+@media screen and (min-width: 427px) and (max-width: 770px) {
+  .hero-section {
+    height: auto;
+    padding-top: 120px;
+  }
+
+  .hero-shop-section {
+    flex-wrap: wrap;
+  }
+
+  .shop-section {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .shop-container {
+    width: 370px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .Bigsmall-Container {
+    width: 370px;
+  }
+
+  .full-container {
+    width: 370px;
+    margin-bottom: 10px;
+  }
+
+  .About p {
+    margin: 10px;
+  }
+
+  .About a {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+
+  .links-box {
+    height: 370px;
+    width: 90%;
+  }
+}
+
+/* Media queris for androids */
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .mob-nav {
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mob-nav > img {
+    background-image: url(../Responsive/Amazon-images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 99px;
+    margin-left: 10px;
+    /* width: 60px; */
+  }
+
+  .mob-icon {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+  }
+  #click:checked ~ nav {
+    display: inline-block;
+    position: fixed;
+    left: 0%;
+    transition: all 1s ease-in-out;
+  }
+  .box-container {
+    justify-content: center;
+  }
+  nav {
+    background-color: #131921;
+    display: inline-block;
+    position: fixed;
+    top: 0%;
+    left: -105%;
+    height: auto;
+    width: 330px;
+    border: 3px solid #f3bd69;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+    /* padding-left: 20px; */
+  }
+  .Nav-search {
+    width: 300px;
+  }
+  .Nav-logo {
+    justify-content: space-between;
+  }
+
+  .cross-icon {
+    display: inline-block;
+    font-size: 35px;
+    margin: 10px;
+    color: white;
+  }
+
+  /* Navbar2 CSS */
+
+  .Navbar2 {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .Nav-All {
+    display: flex;
+    margin-left: 0px;
+    padding: 10px 5px;
+  }
+
+  .Nav-All i {
+    font-size: small;
+    margin-right: 5px;
+  }
+
+  .Navbar2 > a {
+    padding: 10px 1px;
+  }
+
+  /* Table CSS import */
+
+  .hero-section {
+    height: auto;
+    padding-top: 70px;
+  }
+
+  .hero-shop-section {
+    flex-wrap: wrap;
+  }
+
+  .shop-section {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .shop-container {
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .Bigsmall-Container {
+    width: 400px;
+  }
+
+  .full-container {
+    width: 400px;
+    margin-bottom: 10px;
+  }
+
+  /* footer all CSS */
+
+  .About {
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-bottom: 30px;
+  }
+
+  /* footer Logo BOX 3 */
+
+  .footer-logo {
+    margin-top: 0.2px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #d7d5d8;
+    height: 100px;
+  }
+
+  .small-logo {
+    background-image: url(Amazon-images/amazon_logo.png);
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+    margin-right: 130px;
+    margin-left: 130px;
+    cursor: pointer;
+  }
+
+  .footer-logo > p {
+    border: 1px solid rgba(215, 213, 216, 0.5);
+    border-radius: 2px;
+    padding: 5px 15px 5px 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .footer-flag {
+    display: flex;
+    border: 1px solid rgba(215, 213, 216, 0.5);
+    border-radius: 2px;
+    padding: 5px 15px 5px 5px;
+    cursor: pointer;
+  }
+
+  .footer-flag > .flag {
+    background-image: url(Amazon-images/language\ icon.PNG);
+    height: 15px;
+    width: 22px;
+  }
+
+  .footer-flag > p {
+    align-self: center;
+    margin-left: 5px;
+  }
+
+  /* Links Footer BOX 4 */
+
+  .links-container {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .links-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  .links > div {
+    width: 120px;
+  }
+
+  .links-box p {
+    color: #dddddd;
+    font-size: 0.7rem;
+  }
+
+  .links-box p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .links-box a {
+    color: #999995;
+    font-size: 0.6rem;
+    display: flex;
+  }
+
+  .links-box a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* Footer end BOX 5 */
+
+  .Footer-end {
+    color: #dddddd;
+    font-size: 0.8rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+  }
+
+  .Privacy > a {
+    display: flex;
+    margin: 5px;
+  }
+
+  .Privacy > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .Copyright {
+    text-align: center;
+  }
+
+  .Copyright > p {
+    padding-top: 5px;
+  }
+}
+
+/* Media queris for mini-androids */
+
+@media screen and (max-width: 320px) {
+  .mob-nav {
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mob-nav > img {
+    background-image: url(../Responsive/Amazon-images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 99px;
+    margin-left: 10px;
+  }
+
+  .mob-icon {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+  }
+  #click:checked ~ nav {
+    display: inline-block;
+    position: fixed;
+    left: 0%;
+    transition: all 1s ease-in-out;
+  }
+  .box-container {
+    justify-content: center;
+  }
+  nav {
+    background-color: #131921;
+    display: inline-block;
+    position: fixed;
+    top: 0%;
+    left: -105%;
+    height: auto;
+    width: 330px;
+    border: 3px solid #f3bd69;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+  }
+  .Nav-search {
+    width: 300px;
+  }
+  .Nav-logo {
+    justify-content: space-between;
+  }
+
+  .cross-icon {
+    display: inline-block;
+    font-size: 35px;
+    margin: 10px;
+    color: white;
+  }
+
+  /* Navbar2 CSS */
+
+  .Navbar2 {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .Nav-All {
+    display: flex;
+    margin-left: 0px;
+    padding: 10px 5px;
+  }
+
+  .Nav-All i {
+    font-size: small;
+    margin-right: 5px;
+  }
+
+  .Navbar2 > a {
+    font-size: 0.65rem;
+    padding: 10px 0px;
+  }
+
+  .hero-section {
+    height: auto;
+    padding-top: 70px;
+  }
+
+  .hero-shop-section {
+    flex-wrap: wrap;
+  }
+
+  .shop-section {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .shop-container {
+    height: 440px;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .shop-container > a {
+    color: #4d4ded;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    display: flex;
+    margin-top: px;
+  }
+  .box-container {
+    height: 340px;
+  }
+  .box {
+    height: 120px;
+    width: 130px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box > p {
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .img-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 130px;
+    cursor: pointer;
+  }
+  .Bigsmall-Container {
+    width: 315px;
+    height: 420px;
+  }
+  .bigimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 300px;
+    cursor: pointer;
+  }
+
+  .small-boxes {
+    display: flex;
+  }
+
+  .smallimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 90px;
+    margin-right: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .full-container {
+    width: 315px;
+    margin-bottom: 10px;
+  }
+  .full-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .full-img {
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  /* footer all CSS */
+
+  .About {
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    padding-bottom: 30px;
+  }
+
+  /* footer Logo BOX 3 */
+
+  .footer-logo {
+    margin-top: 0.2px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #d7d5d8;
+    height: 100px;
+  }
+
+  .small-logo {
+    background-image: url(Amazon-images/amazon_logo.png);
+    background-size: cover;
+    margin: 0px;
+    cursor: pointer;
+  }
+
+  .footer-logo > p {
+    border: 1px solid rgba(215, 213, 216, 0.5);
+    border-radius: 2px;
+    padding: 5px 15px 5px 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .footer-flag {
+    display: flex;
+    border: 1px solid rgba(215, 213, 216, 0.5);
+    border-radius: 2px;
+    padding: 5px 15px 5px 5px;
+    cursor: pointer;
+  }
+
+  .footer-flag > .flag {
+    background-image: url(Amazon-images/language\ icon.PNG);
+    height: 15px;
+    width: 22px;
+  }
+
+  .footer-flag > p {
+    align-self: center;
+    margin-left: 5px;
+  }
+
+  /* Links Footer BOX 4 */
+
+  .links-container {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .links-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  .links > div {
+    width: 120px;
+  }
+
+  .links-box p {
+    color: #dddddd;
+    font-size: 0.6rem;
+  }
+
+  .links-box p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .links-box a {
+    color: #999995;
+    font-size: 0.5rem;
+    display: flex;
+  }
+
+  .links-box a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* Footer end BOX 5 */
+
+  .Footer-end {
+    color: #dddddd;
+    font-size: 0.8rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+  }
+
+  .Privacy > a {
+    display: flex;
+    margin: 5px;
+  }
+
+  .Privacy > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .Copyright {
+    text-align: center;
+  }
+
+  .Copyright > p {
+    padding-top: 5px;
+  }
+}
