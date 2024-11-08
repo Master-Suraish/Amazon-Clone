@@ -986,7 +986,7 @@ main {
   }
 
   .mob-nav > img {
-    background-image: url(../Responsive/Amazon-images/amazon_logo.png);
+    background-image: url(Amazon-images/amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 99px;
